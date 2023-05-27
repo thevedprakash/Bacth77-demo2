@@ -1,0 +1,55 @@
+# Create a repository from cmd line with out clone.
+
+mkdir <your_folder_name>
+cd <your_folder_name>
+
+echo "# Bacth77-demo2" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/thevedprakash/Bacth77-demo2.git
+git push -u origin master
+
+C:\Users\theve\Batch77-demo2>echo "# Bacth77-demo2" >> README.md
+
+C:\Users\theve\Batch77-demo2>git init
+Initialized empty Git repository in C:/Users/theve/Batch77-demo2/.git/
+
+C:\Users\theve\Batch77-demo2>git add README.md
+
+C:\Users\theve\Batch77-demo2>git commit -m "first commit"
+[master (root-commit) 9975d40] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+C:\Users\theve\Batch77-demo2>git branch -M master
+
+C:\Users\theve\Batch77-demo2>git remote add origin https://github.com/thevedprakash/Bacth77-demo2.git
+
+C:\Users\theve\Batch77-demo2>git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 232 bytes | 232.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/thevedprakash/Bacth77-demo2.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+
+
+
+## Making changes into your file/folders.
+1. Make changes to your file or add new files.
+2. git add <file_name> or git add .
+3. git status 
+	To check if all files are added or not.
+4. git commit -m "This is my commit for change."
+5. git push -u origin master
+
+
+
+
+
+
+
